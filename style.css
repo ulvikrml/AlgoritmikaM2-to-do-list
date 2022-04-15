@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+.card{
+    margin: auto;
+    margin-top: 100px;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+.header{
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFDC40;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.header-text{
+    margin: auto;
+    padding-bottom: 7px;
+    font-size: 33px;
+}
+.sort-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+#sort-btn{
+    color: black;
+    border: none;
+    background: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#sort-btn:hover svg *{
+    fill: black;
+}
+#todo-list{
+    border-radius: 10px;
+    border: 1px solid #ededed;
+    margin-block: 10px;
+}
+#todo-list li{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#todo-list li input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 80%;
+}
+.del-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.del-btn svg{
+   vertical-align: middle;
+   transition: all 0.5s ease;
+}
+.del-btn svg:hover{
+    fill: #833AE0;
+ }
+.add-button{
+    margin: auto;
+}
+#add-btn{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.plus-box{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-color: #9953F1;
+    position: relative;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus-text{
+    font-size: 17px;
+    color: white;
+}
+.add-text-box{
+    border-radius: 42px;
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-text{
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+
+
+
+
